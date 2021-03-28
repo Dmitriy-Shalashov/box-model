@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    font-size: 0;
+}
+
+
+
+.div1, .div2{
+width:50%;
+height: 300px;
+display: inline-block;
+border: 10px solid black;
+box-sizing: border-box;
+padding: 20px;
+font-size: 10px;
+}
+
+.div1{
+background-color: blue;
+/* display: none; */
+opacity: 0.9;
+}
+
+.div2{
+background-color: brown;
+}
+
+span{
+    display: inline;
+}
+
+.element1, .element2,.element4 {
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 1%;
+    /* margin: 5px; */
+}
+
+.element1{
+    background-color: blueviolet;
+    }
+.element2{
+    background-color: chartreuse;
+   }
+.element4{
+    background-color: blueviolet;
+   }
+.element3{
+    height: 150px;
+    background-color: crimson;
+    text-align: center;
+
+}
+p{
+    font-size: 20px;
+        
+}
